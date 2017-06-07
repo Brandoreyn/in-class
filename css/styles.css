@@ -1,0 +1,165 @@
+.body {
+    margin: 0px;
+}
+/**Removies margon from body**/
+/**Begin Home Page**/
+
+.main-nav {
+ height: 70px;
+background-color: #404040;  
+}
+
+.logo {
+ height: 70px;
+ float: left;
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+}
+
+.nav-link {
+  float: right;
+  margin-right: 15px;
+  color:#fff;
+}
+
+.nav-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: gold;
+  margin: 25px 0px;
+}
+
+
+.banner {
+   background-image: url("../img/dragon.png");
+    background-size: cover;
+    background-position: center;
+     height: 450px;
+}
+
+.header-background {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.banner-header {
+  display: inline;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+/** End Banner Style**/
+
+/** Start Column Style**/
+.container {
+    height:400px;
+    padding: 15px;
+    max-width:  1200px;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.column {
+    width: 25%;
+    height:350px;
+    float: left;
+    border: 1px solid #707070;
+    padding: 15px;
+    text-align: center;
+    padding: 2.5%;
+    margin-left: 2.5%;
+}
+
+.column-header {
+color: #f00; 
+}
+
+.column-image {
+    width: 100%;
+    height:200px;
+}
+
+/**End Column Styles**/
+
+/**Start Footer**/
+footer {
+    height:150px;
+    border-top: 1px solid #070707;
+}
+
+.footer-section {
+    height: 100%;
+    width: 33%;
+    float:left;
+    background-color: #707070;
+}
+
+.footer-logo {
+  height:70px;
+}
+
+.social-media {
+  height: 100%;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.section {
+  height: 50px;
+}
+
+.icon {
+  height: 100%;
+  width: 50px;
+  text-align:center;
+  margin-left: calc(100%/3);
+  background:  green; /* For browsers that do not support gradients */
+  /* Safari 5.1 to 6.0 */
+  background: -webkit-radial-gradient(#fff, green);
+  /* Opera 11.1 to 12.0 */
+  background: -o-radial-gradient(#fff, green);
+  /* Firefox 3.6 to 15 */
+  background: -moz-radial-gradient(#fff, green);
+  /* Standard syntax */
+  background: radial-gradient(#fff, green);
+  border-radius: 100%;
+}
+
+.icon.left {
+  float: left;
+  margin-left: 0px;
+}
+
+.icon.right {
+  float: right;
+  margin-left: 0px;
+}
+
+.icon .fa {
+  color: blue;
+  font-size: 25px;
+  margin-top: 12.5px;
+}
+
+.copyright-text {
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.copyright-margin {
+margin-top: 40px;
+}
+/**Eng Footer Styles**/
